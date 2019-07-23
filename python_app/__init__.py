@@ -1,3 +1,5 @@
-from python_app.controller import Controller
+from python_app.handler import Handler
+from python_app.repository import Repository
 
-controller = Controller()
+handler = Handler()
+repository = Repository()
