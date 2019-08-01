@@ -1,12 +1,16 @@
+from db import startup
 from router import app
-from python_app import repository
+import logging.config
 
 #Start DB
-repository.startup()
+startup()
+
+#Start Logger
+logging.config.fileConfig('logging.conf')
 
 #Init flask app
 print("Starting flask")
-if __name__ == '__main__':    
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
 

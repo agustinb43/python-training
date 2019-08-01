@@ -1,0 +1,264 @@
+2019-07-26 14:54:13,316 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 14:54:24,677 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 14:54:24,681 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 14:54:24,686 - python_app.handler - INFO - 1 To-do's founded
+2019-07-26 14:54:24,690 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 14:54:24,694 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 14:54:24] "GET / HTTP/1.1" 200 -
+2019-07-26 17:31:15,609 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:31:19,023 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:31:24,117 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:31:24,119 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:31:24,120 - python_app.handler - INFO - 1 To-do's founded
+2019-07-26 17:31:24,123 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:31:24,126 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:31:24] "GET / HTTP/1.1" 200 -
+2019-07-26 17:34:36,503 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:34:39,540 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:34:43,126 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:34:43,127 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:34:43,131 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:34:43,135 - Python app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Cursor.
+2019-07-26 17:34:43,177 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:34:43] "GET / HTTP/1.1" 500 -
+2019-07-26 17:36:02,645 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:36:04,929 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:36:04,931 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:36:04,933 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:36:04,935 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:36:04,939 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:36:04] "GET / HTTP/1.1" 200 -
+2019-07-26 17:39:48,745 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:39:52,621 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:39:52,623 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:39:52,624 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:39:52,648 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:39:52,655 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:39:52] "GET / HTTP/1.1" 200 -
+2019-07-26 17:39:57,898 - router - INFO - Get to-do incomming request
+2019-07-26 17:39:57,936 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:39:57,938 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:39:57,940 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:39:57] "GET /1 HTTP/1.1" 200 -
+2019-07-26 17:40:02,202 - router - INFO - Get to-do incomming request
+2019-07-26 17:40:02,228 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:40:02,231 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:40:02,236 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:40:02] "GET /2 HTTP/1.1" 200 -
+2019-07-26 17:41:08,049 - router - INFO - Get to-do incomming request
+2019-07-26 17:41:08,077 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:41:08,079 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:41:08,082 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:41:08] "GET /2 HTTP/1.1" 200 -
+2019-07-26 17:41:16,503 - router - INFO - Get to-do incomming request
+2019-07-26 17:41:16,533 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:41:16,536 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:41:16,541 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:41:16] "GET /1 HTTP/1.1" 200 -
+2019-07-26 17:41:25,733 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:41:27,194 - router - INFO - Get to-do incomming request
+2019-07-26 17:41:27,264 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:41:27,265 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:41:27,268 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:41:27] "GET /1 HTTP/1.1" 200 -
+2019-07-26 17:41:37,963 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:41:43,271 - router - INFO - Get to-do incomming request
+2019-07-26 17:41:43,274 - python_app.handler - INFO - Finding todo with id 1
+2019-07-26 17:41:43,305 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:41:43,307 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:41:43,310 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:41:43] "GET /1 HTTP/1.1" 200 -
+2019-07-26 17:41:59,421 - router - INFO - Get to-do incomming request
+2019-07-26 17:41:59,422 - python_app.handler - INFO - Finding todo with id 2
+2019-07-26 17:41:59,423 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:41:59,424 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:41:59,425 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:41:59] "GET /2 HTTP/1.1" 200 -
+2019-07-26 17:44:11,243 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:44:11,244 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:44:11,245 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:44:11,246 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:44:11,248 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:44:11] "GET / HTTP/1.1" 200 -
+2019-07-26 17:44:27,505 - router - INFO - Add to-do incomming request
+2019-07-26 17:44:27,526 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:44:27,530 - python_app.handler - INFO - Adding new to-do
+2019-07-26 17:44:27,535 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:44:27,537 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:44:27] "POST / HTTP/1.1" 200 -
+2019-07-26 17:49:22,705 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:49:22,706 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:49:22,706 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:49:22,707 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:49:22,709 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:49:22] "GET / HTTP/1.1" 200 -
+2019-07-26 17:51:16,301 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:51:16,302 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:51:16,303 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:51:16,304 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:51:16,306 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:51:16] "GET / HTTP/1.1" 200 -
+2019-07-26 17:51:35,769 - router - INFO - Update to-do incomming request
+2019-07-26 17:51:35,771 - Python app - ERROR - Exception on /4 [PUT]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/python-training/router.py", line 38, in update_todo
+    return handler.update_todo(todo_id, todo_description)
+TypeError: update_todo() missing 1 required positional argument: 'todo_description'
+2019-07-26 17:51:35,805 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:51:35] "PUT /4 HTTP/1.1" 500 -
+2019-07-26 17:52:11,062 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-26 17:52:18,071 - router - INFO - Update to-do incomming request
+2019-07-26 17:52:18,075 - python_app.handler - INFO - Update TODO 4
+2019-07-26 17:52:18,078 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:52:18,081 - python_app.handler - INFO - Finding to-do
+2019-07-26 17:52:20,496 - python_app.handler - INFO - Updating to-do
+2019-07-26 17:52:20,509 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:52:20,516 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:52:20] "PUT /4 HTTP/1.1" 200 -
+2019-07-26 17:52:26,698 - router - INFO - Get all to-dos incomming request
+2019-07-26 17:52:26,699 - python_app.handler - INFO - Finding all to-dos
+2019-07-26 17:52:26,700 - python_app.repository - DEBUG - Getting db connection
+2019-07-26 17:52:26,701 - python_app.repository - DEBUG - Closing db connection
+2019-07-26 17:52:26,703 - werkzeug - INFO - 127.0.0.1 - - [26/Jul/2019 17:52:26] "GET / HTTP/1.1" 200 -
+2019-07-31 16:30:51,756 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:31:10,710 - router - INFO - Get all to-dos incomming request
+2019-07-31 16:31:10,711 - python_app.handler - INFO - Finding all to-dos
+2019-07-31 16:31:10,711 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:31:10,713 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:31:10,739 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:31:10] "GET / HTTP/1.1" 200 -
+2019-07-31 16:43:08,727 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:43:18,128 - router - INFO - Get all to-dos incomming request
+2019-07-31 16:43:18,129 - python_app.handler - INFO - Finding all to-dos
+2019-07-31 16:43:18,130 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:43:18,153 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:43:18,156 - Python app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/python-training/router.py", line 11, in get_all_todos
+    return jsonify(handler.get_todos())
+  File "/home/user/python-training/python_app/handler.py", line 11, in get_todos
+    all_users = [{'id':row.id,'todo':row.todo} for row in rows]
+  File "/home/user/python-training/python_app/handler.py", line 11, in <listcomp>
+    all_users = [{'id':row.id,'todo':row.todo} for row in rows]
+AttributeError: 'tuple' object has no attribute 'id'
+2019-07-31 16:43:18,197 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:43:18] "GET / HTTP/1.1" 500 -
+2019-07-31 16:43:29,587 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:43:43,447 - router - INFO - Get all to-dos incomming request
+2019-07-31 16:43:43,448 - python_app.handler - INFO - Finding all to-dos
+2019-07-31 16:43:43,451 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:44:21,814 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:44:21,822 - Python app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/python-training/router.py", line 11, in get_all_todos
+    return jsonify(handler.get_todos())
+  File "/home/user/python-training/python_app/handler.py", line 11, in get_todos
+    all_users = [{'id':row.id,'todo':row.todo} for row in rows]
+  File "/home/user/python-training/python_app/handler.py", line 11, in <listcomp>
+    all_users = [{'id':row.id,'todo':row.todo} for row in rows]
+AttributeError: 'tuple' object has no attribute 'id'
+2019-07-31 16:44:21,861 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:44:21] "GET / HTTP/1.1" 500 -
+2019-07-31 16:44:29,267 - router - INFO - Get all to-dos incomming request
+2019-07-31 16:44:29,269 - python_app.handler - INFO - Finding all to-dos
+2019-07-31 16:44:29,270 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:45:05,517 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:45:05,520 - Python app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/python-training/router.py", line 11, in get_all_todos
+    return jsonify(handler.get_todos())
+  File "/home/user/python-training/python_app/handler.py", line 11, in get_todos
+    all_users = [{'id':row[0],'todo':row[1]} for row in rows]
+  File "/home/user/python-training/python_app/handler.py", line 11, in <listcomp>
+    all_users = [{'id':row[0],'todo':row[1]} for row in rows]
+AttributeError: 'tuple' object has no attribute 'id'
+2019-07-31 16:45:05,527 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:45:05] "GET / HTTP/1.1" 500 -
+2019-07-31 16:45:11,020 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:45:17,542 - router - INFO - Get all to-dos incomming request
+2019-07-31 16:45:17,544 - python_app.handler - INFO - Finding all to-dos
+2019-07-31 16:45:17,545 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:45:20,403 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:45:20,412 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:45:20] "GET / HTTP/1.1" 200 -
+2019-07-31 16:46:24,902 - router - INFO - Get to-do incomming request
+2019-07-31 16:46:24,903 - python_app.handler - INFO - Finding todo with id 1
+2019-07-31 16:46:24,905 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:46:24,906 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:46:24,908 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:46:24] "GET /1 HTTP/1.1" 200 -
+2019-07-31 16:46:57,517 - router - INFO - Get to-do incomming request
+2019-07-31 16:46:57,518 - python_app.handler - INFO - Finding todo with id 12
+2019-07-31 16:46:57,520 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:46:57,521 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:46:57,524 - Python app - ERROR - Exception on /12 [GET]
+Traceback (most recent call last):
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/python-training/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/user/python-training/router.py", line 17, in get_todo
+    return jsonify(handler.get_todo(todo_id))
+  File "/home/user/python-training/python_app/handler.py", line 19, in get_todo
+    row = db.cursor().execute('''SELECT id, todo FROM todos where id = ? ''', (todo_id)).fetchone()
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+2019-07-31 16:46:57,577 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:46:57] "GET /12 HTTP/1.1" 500 -
+2019-07-31 16:47:04,398 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:47:09,777 - router - INFO - Get to-do incomming request
+2019-07-31 16:47:09,778 - python_app.handler - INFO - Finding todo with id 9
+2019-07-31 16:47:09,802 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:47:09,804 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:48:00,185 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:48:00] "GET /9 HTTP/1.1" 200 -
+2019-07-31 16:48:30,248 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-07-31 16:48:36,740 - router - INFO - Get to-do incomming request
+2019-07-31 16:48:36,742 - python_app.handler - INFO - Finding todo with id 9
+2019-07-31 16:48:36,770 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:48:36,771 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:48:39,203 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:48:39] "GET /9 HTTP/1.1" 200 -
+2019-07-31 16:48:44,642 - router - INFO - Get to-do incomming request
+2019-07-31 16:48:44,643 - python_app.handler - INFO - Finding todo with id 5
+2019-07-31 16:48:44,643 - python_app.repository - DEBUG - Getting db connection
+2019-07-31 16:48:44,645 - python_app.repository - DEBUG - Closing db connection
+2019-07-31 16:48:46,404 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:48:46] "GET /5 HTTP/1.1" 200 -
