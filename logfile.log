@@ -262,3 +262,4 @@ sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current sta
 2019-07-31 16:48:44,643 - python_app.repository - DEBUG - Getting db connection
 2019-07-31 16:48:44,645 - python_app.repository - DEBUG - Closing db connection
 2019-07-31 16:48:46,404 - werkzeug - INFO - 127.0.0.1 - - [31/Jul/2019 16:48:46] "GET /5 HTTP/1.1" 200 -
+2019-08-06 14:19:27,735 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
