@@ -4,3 +4,5 @@ instance/
 venv/
 .venv
 .vscode/
+test.db
+logfile.log
